@@ -1,0 +1,118 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/hamza/.m2/repository/org/swinglabs/swing-layout/1.0.3/swing-layout-1.0.3.jar;C:/Users/hamza/.m2/repository/org/apache/pdfbox/pdfbox-lucene/1.8.14/pdfbox-lucene-1.8.14.jar;C:/Users/hamza/.m2/repository/org/apache/pdfbox/pdfbox/1.8.14/pdfbox-1.8.14.jar;C:/Users/hamza/.m2/repository/org/apache/pdfbox/fontbox/1.8.14/fontbox-1.8.14.jar;C:/Users/hamza/.m2/repository/org/apache/pdfbox/jempbox/1.8.14/jempbox-1.8.14.jar;C:/Users/hamza/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar;C:/Users/hamza/.m2/repository/org/apache/lucene/lucene-core/2.4.1/lucene-core-2.4.1.jar;C:/Users/hamza/.m2/repository/org/apache/lucene/lucene-demos/2.4.1/lucene-demos-2.4.1.jar;C:/Users/hamza/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'C:/AlphaBaldr/AlphaBaldr/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/AlphaBaldr/AlphaBaldr/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'MAVEN - Baldr 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'C:/AlphaBaldr/AlphaBaldr/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'MAVEN - Baldr 1.0-SNAPSHOT API'
+ca.qc.bdeb.baldr.formattage
+ca.qc.bdeb.baldr.ihm
+ca.qc.bdeb.baldr.ihm.fileFilters
+ca.qc.bdeb.baldr.ihm.renderers
+ca.qc.bdeb.baldr.ihm.renderers.utils
+ca.qc.bdeb.baldr.main
+ca.qc.bdeb.baldr.noyau
+ca.qc.bdeb.baldr.utils
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/formattage/CommentParser.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/formattage/ExtrairePDF.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/formattage/TypeCommentaire.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/formattage/TypeCommentaireMultiLigne.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/formattage/TypeCommentaireUneLigne.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/ihm/APropos.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/ihm/BaldrTableModel.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/ihm/ConsoleIhm.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/ihm/ErrorMessages.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/ihm/FenetreFiltreFichiers.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/ihm/fileFilters/BaldrFileFilter.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/ihm/GestionnaireI18N.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/ihm/JReport.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/ihm/ListViewTableModel.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/ihm/PanelContentFile.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/ihm/PanelFiles.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/ihm/PanelResults.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/ihm/PanelTab.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/ihm/Prefwin.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/ihm/PreviewTab.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/ihm/renderers/AbstractResultCellCustomRenderer.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/ihm/renderers/ListViewCellCustomRenderer.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/ihm/renderers/TableHeaderCellCustomRenderer.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/ihm/renderers/TableViewCellCustomRenderer.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/ihm/renderers/TreeCellCustomRenderer.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/ihm/renderers/utils/VTextIcon.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/ihm/ResTableMouseAdapter.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/ihm/TableCell.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/ihm/TableColumnAdjuster.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/ihm/TransferableTreeNode.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/ihm/WindowBaldr.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/main/Main.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/noyau/GestionnaireFiltres.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/noyau/GestionnairePreferences.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/noyau/GestionnaireResultats.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/noyau/ListeResultats.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/noyau/MatriceTriangulaire.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/noyau/Noyau.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/noyau/OutputStreamSizer.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/noyau/OuvertureFichier.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/noyau/Projet.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/noyau/RienASauvegarderException.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/noyau/Savable.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/noyau/SaveAndRestore.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/noyau/Sommaire.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/noyau/Task.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/noyau/Tri.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/utils/ArrayUtil.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/utils/Correspondance.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/utils/Extension.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/utils/FilePair.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/utils/Observable.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/utils/Observateur.java'
+'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/utils/Observation.java'
+C:\Users\hamza\.m2\repository\org\swinglabs\swing-layout\1.0.3\swing-layout-1.0.3.jar = 1643210370180
+C:\Users\hamza\.m2\repository\org\apache\pdfbox\pdfbox-lucene\1.8.14\pdfbox-lucene-1.8.14.jar = 1643210370219
+C:\Users\hamza\.m2\repository\org\apache\pdfbox\pdfbox\1.8.14\pdfbox-1.8.14.jar = 1643210373237
+C:\Users\hamza\.m2\repository\org\apache\pdfbox\fontbox\1.8.14\fontbox-1.8.14.jar = 1643210370315
+C:\Users\hamza\.m2\repository\org\apache\pdfbox\jempbox\1.8.14\jempbox-1.8.14.jar = 1643210370269
+C:\Users\hamza\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar = 1643203478436
+C:\Users\hamza\.m2\repository\org\apache\lucene\lucene-core\2.4.1\lucene-core-2.4.1.jar = 1643210371215
+C:\Users\hamza\.m2\repository\org\apache\lucene\lucene-demos\2.4.1\lucene-demos-2.4.1.jar = 1643210370353
+C:\Users\hamza\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar = 1643209282961
+C:\AlphaBaldr\AlphaBaldr\src\main\java = 1645799738194
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\allclasses-index.html = 1646165769990
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\allpackages-index.html = 1646165769995
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\constant-values.html = 1646165769525
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\element-list = 1646165769455
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\help-doc.html = 1646165770082
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\index-all.html = 1646165770067
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\index.html = 1646165769897
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\jquery-ui.overrides.css = 1646165770128
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\member-search-index.js = 1646165770004
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\module-search-index.js = 1646165769997
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\overview-summary.html = 1646165770075
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\overview-tree.html = 1646165769889
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\package-search-index.js = 1646165769999
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\script.js = 1646165770089
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\search.js = 1646165770095
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\serialized-form.html = 1646165769618
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\stylesheet.css = 1646165770085
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\tag-search-index.js = 1646165770005
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\type-search-index.js = 1646165770001
