@@ -50,7 +50,7 @@ jobs:
       - run:
           name: Automation 
           command: | 
-            ls && pwd 
+            
              cd ../../../var
              pwd 
              ls
