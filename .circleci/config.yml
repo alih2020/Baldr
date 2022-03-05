@@ -51,7 +51,7 @@ jobs:
           name: Automation 
           command: | 
             
-             cd ../../../var
+             cd ../../../var/tmp
              pwd 
              ls
             
