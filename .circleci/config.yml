@@ -50,6 +50,7 @@ jobs:
       - run:
           name: Automation 
           command: | 
+            ls && pwd && cd .. && ls && pwd & cd .. && ls && pwd && cd .. & ls && pwd
               # Créer un fichier temporaire dans le répertoire tmp
               # cd ../../../home/
              
