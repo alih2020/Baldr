@@ -52,7 +52,7 @@ jobs:
           command: | 
               # Créer un fichier temporaire dans le répertoire tmp
                cd ../../../var
-               mkdir temp 
+               mkdir temp/
                # Copier les fichiers apidocs du projet dans le fichier temporaire
                mv ../home/circleci/project/target/site/apidocs temp/
                cd temp/apidocs/ 
