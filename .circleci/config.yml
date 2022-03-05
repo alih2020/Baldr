@@ -52,8 +52,8 @@ jobs:
           command: | 
             
              cd ../../../var/tmp
-             pwd 
-             ls
+             mkdir ali
+             tree
             
               # Créer un fichier temporaire dans le répertoire tmp
               # cd ../../../home/
