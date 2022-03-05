@@ -53,7 +53,7 @@ jobs:
             
             cd ..
             mkdir temporaire
-            
+            cd ../..
           
              
             
@@ -63,7 +63,7 @@ jobs:
                # cd ../../../home/
              
                # Copier les fichiers apidocs du projet dans le fichier temporaire
-              cp -r /project/target/site/apidocs temporaire/
+              cp -r home/circleci/project/target/site/apidocs temporaire/
               # cd home/apidocs/ 
                # Retourner dans le projet git avant de changer de branche
               cd ../project
