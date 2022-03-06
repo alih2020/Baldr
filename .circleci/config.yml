@@ -51,7 +51,7 @@ jobs:
           name: Automation 
           command: | 
             
-            ce ../../..
+            cd ../../..
           
              
             
